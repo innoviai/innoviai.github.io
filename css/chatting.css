@@ -1,0 +1,137 @@
+body {
+  background: brown;
+  font: 15px 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font: 2em 'Calligraffiti', cursive;
+  text-align: center;
+  
+  background: rgba(0,0,0,.2);
+  & a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px dotted;
+    opacity: .3;
+  }
+}
+  
+  .chat-window {
+    width: 320px;
+    height: 325px;
+    position: absolute;
+    left: 70%;
+    bottom: 1%;
+  }
+  
+  input[type=checkbox]{display:none}
+  .top {
+    background: tomato;
+    padding: 10px;
+    width: 300px;
+    height: 20px;
+    display: block;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+  }
+  
+  #trigger:checked ~ .chat,
+  #trigger:checked ~ textarea {
+    display: none}
+  #trigger:checked ~ .top {
+    bottom: 0;
+    position: absolute;
+  }
+  #close:checked ~ .chat-window {
+    display: none}
+  
+  .online {
+    background: lightgreen;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: inline-block;
+  }
+  
+  .close {
+    font-size: 1.3em;
+    float: right;
+    padding: 0 7px;
+    transition: .3s;
+    cursor: pointer;
+  }
+  .close:hover {
+    background: rgba(255,0,0,.2);
+    box-shadow: 0 0 10px 1px rgba(0,0,0,.2) inset;
+  }
+  
+  .chat {
+    background: tomato;
+    height: 250px;
+    overflow-y: scroll;
+  }
+  
+  .damn {
+    margin: 10px 0;
+    clear: both;
+  }
+  
+  img {
+    float: left;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: -15px;
+    position: relative;
+    z-index: 1;
+    border: 5px solid;
+  }
+  
+  .name, .message {
+    background: steelblue;
+    float: left;
+    padding: 8px 20px;
+    max-width: 220px;
+    border-radius: 50px;
+  }
+  .name {font-weight: 700;}
+  .message {background: silver}
+  
+  .me img {
+    float: right;
+    margin-right: 0;
+    margin-left: -15px;
+  }
+  
+  .me .name, .me .message {
+    float: right}
+  
+  .clear{clear:both}
+  
+  textarea {
+    width: 100%;
+    height: 35px;
+    border: 0;
+    padding: 10px 20px;
+    box-shadow: 0 -1px 20px -3px #000;
+    box-sizing: border-box;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+   
+  ::-webkit-scrollbar-track {
+    border-radius: 0;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    margin: 2px;
+    border-radius: 5px;
+  }
+  
+  .chat-window:hover ::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.2);
+  }
