@@ -1,6 +1,0 @@
-chalice
-matplotlib
-sklearn
-numpy
-scipy
-pandas
