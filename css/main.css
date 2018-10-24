@@ -1,4 +1,4 @@
-/*
+banner-/*
 
 	Template Author : pixelhint.com
 	Author Email    : contact@pixelhint.com
@@ -14,7 +14,6 @@
     - header
     - services
     - video
-	- team
     - testimonials
     - blog posts
 	- footer
@@ -101,6 +100,10 @@ h5, h6          { font-weight: bolder }
 
 
 
+
+
+
+
 /*    Billboard    */
 .billboard{
     width: 100%;
@@ -118,7 +121,16 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard.dark{
-    background: url('../img/billboard2.jpg') no-repeat;
+    background: url('../img/banner-bg_update.jpg') no-repeat;
+    
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.billboard.dark1{
+    background: url('../img/billboard_innovi.jpg') no-repeat;
     
     background-size: cover;
     -webkit-background-size: cover;
@@ -378,86 +390,6 @@ header.dark nav ul li a:hover{
 
 
 
-/*    team    */
-.team{
-    margin-top: 100px;
-}
-
-.team ul{
-    margin-top: 70px;
-    list-style: none;
-	margin-left: 180px;
-}
-
-.team ul li{
-    display: block;
-    float: left;
-    margin-left: 80px;
-    width: 313px;
-}
-
-.team ul li:first-child{
-    margin-left: 0;
-}
-
-.team ul li .quotes{
-    margin-right: 10px;
-}
-
-.team ul li p{
-    color: #838181;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 28px;
-    letter-spacing: .5px;
-    padding-bottom: 30px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #ecebeb;
-    position: relative;
-}
-
-.team ul li p .triangle{
-    display: block;
-    width: 10px;
-    height: 5px;
-    background: url('../img/testimonial_triangle.png') no-repeat;
-    position: absolute;
-    bottom: -5px;
-    left: 40px;
-}
-
-.team ul li .client{
-    margin-left: 20px;
-}
-
-.team ul li .client img.avatar{
-    float: left;
-    margin-right: 20px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    -o-border-radius: 100px;
-    border-radius: 100px;
-}
-
-.team ul li .client .client_details{
-    float: left;
-}
-
-.team ul li .client .client_details h4{
-    color: #7b7979;
-    font-family: "raleway-semibold";
-    font-size: 14px;
-    font-weight: bold;
-    margin: 0 0 10px 0;
-}
-
-.team ul li .client .client_details h5{
-    color: #7b7979;
-    font-family: "raleway-regular";
-    font-size: 12px;
-    margin: 0;
-    font-weight: normal;
-}
 
 
 
@@ -544,6 +476,86 @@ header.dark nav ul li a:hover{
 
 
 
+/*    team    */
+.team{
+    margin-top: 100px;
+}
+
+.team ul{
+    margin-top: 70px;
+    list-style: none;
+}
+
+.team ul li{
+    display: block;
+    float: left;
+    margin-left: 80px;
+    width: 313px;
+}
+
+.team ul li:first-child{
+    margin-left: 0;
+}
+
+.team ul li .quotes{
+    margin-right: 10px;
+}
+
+.team ul li p{
+    color: #838181;
+    font-family: "raleway-regular";
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: .5px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ecebeb;
+    position: relative;
+}
+
+.team ul li p .triangle{
+    display: block;
+    width: 10px;
+    height: 5px;
+    background: url('../img/testimonial_triangle.png') no-repeat;
+    position: absolute;
+    bottom: -5px;
+    left: 40px;
+}
+
+.team ul li .client{
+    margin-left: 20px;
+}
+
+.team ul li .client img.avatar{
+    float: left;
+    margin-right: 20px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -o-border-radius: 100px;
+    border-radius: 100px;
+}
+
+.team ul li .client .client_details{
+    float: left;
+}
+
+.team ul li .client .client_details h4{
+    color: #7b7979;
+    font-family: "raleway-semibold";
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.team ul li .client .client_details h5{
+    color: #7b7979;
+    font-family: "raleway-regular";
+    font-size: 12px;
+    margin: 0;
+    font-weight: normal;
+}
+
 
 
 
@@ -614,143 +626,10 @@ header.dark nav ul li a:hover{
     margin: 20px 0 0 0;
 }
 
-/*    chatbox    */
-.chatbox{
-    background: brown;
-    font: 15px 'Open Sans', sans-serif;
-    color: #fff;
-}
 
-.chatbox .h1{
-    font: 2em 'Calligraffiti', cursive;
-    text-align: center;
-    background: rgba(0,0,0,.2);
-    & a {
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 2px dotted;
-      opacity: .2;
-    }
-}
 
-.chat-window {
-    width: 320px;
-    height: 325px;
-    position: absolute;
-    left: 80%;
-    bottom: 1%;
-}
-input[type=checkbox]{display:none}
-.top {
-  background: rgb(197, 106, 92);
-  padding: 10px;
-  width: 200px;
-  height: 20px;
-  display: block;
-  cursor: pointer;
-  border-bottom: 1px solid #fff;
-}
 
-#trigger:checked ~ .chat,
-#trigger:checked ~ textarea {
-  display: none}
-#trigger:checked ~ .top {
-  bottom: 0;
-  position: absolute;
-}
-#close:checked ~ .chat-window {
-  display: none}
 
-.online {
-  background: lightgreen;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  margin-right: 10px;
-  display: inline-block;
-}
-
-.close {
-  font-size: 1.3em;
-  float: right;
-  padding: 0 7px;
-  transition: .3s;
-  cursor: pointer;
-}
-.close:hover {
-  background: rgba(255,0,0,.2);
-  box-shadow: 0 0 10px 1px rgba(0,0,0,.2) inset;
-}
-
-.chat {
-  background: tomato;
-  width:220px;
-  height: 250px;
-  overflow-y: scroll;
-}
-
-.damn {
-  margin: 10px 0;
-  clear: both;
-}
-
-img {
-  float: left;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  margin-right: -15px;
-  position: relative;
-  z-index: 1;
-  border: 5px solid;
-}
-
-.name, .message {
-  background: steelblue;
-  float: left;
-  padding: 8px 20px;
-  max-width: 220px;
-  border-radius: 50px;
-}
-.name {font-weight: 700;}
-.message {background: silver}
-
-.me img {
-  float: right;
-  margin-right: 0;
-  margin-left: -15px;
-}
-
-.me .name, .me .message {
-  float: right}
-
-.clear{clear:both}
-
-textarea {
-  width: 220px;
-  height: 35px;
-  border: 0;
-  padding: 10px 20px;
-  box-shadow: 0 -1px 20px -3px rgb(47, 206, 27);
-  box-sizing: border-box;
-}
-
-::-webkit-scrollbar {
-  width: 6px;
-}
- 
-::-webkit-scrollbar-track {
-  border-radius: 0;
-}
- 
-::-webkit-scrollbar-thumb {
-  margin: 2px;
-  border-radius: 5px;
-}
-
-.chat-window:hover ::-webkit-scrollbar-thumb {
-  background: rgba(167, 37, 37, 0.2);
-}
 
 
 /*    footer    */
@@ -806,3 +685,38 @@ footer nav ul li a{
 footer nav ul li a:hover{
     color: #616161;
 }
+
+
+
+
+.banner-area {
+    background: url(../img/banner-bg.jpg) center;
+    background-size: cover;
+}
+
+.banner-content h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 1em;
+}
+
+.banner-content p {
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.text-white {
+    color: #fff;
+  }
+
+
+  .container.fullwidth {
+    width: 100%;
+  }
+  
+  .container.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
