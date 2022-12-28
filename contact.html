@@ -1,0 +1,232 @@
+<html>
+
+<head>
+    <title>InnoVi Limited - Your AI Visual Solution for Business</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/common2.css" />
+    <script src="https://kit.fontawesome.com/af1e85facf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <script>
+        function success() {
+            var name = document.getElementById("name");
+            var toid = document.getElementById("toid");
+            var subject = document.getElementById("subject");
+            var message = document.getElementById("message");
+            if (name.checkValidity())
+                if (toid.checkValidity())
+                    if (subject.checkValidity())
+                        if (message.checkValidity()) {
+                            window.alert("Your message have been sent successfully!");
+                            window.location = "contact.html";
+                        }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="preload">
+        <img src="img/loading.gif" style="width:300px;position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);" />
+
+    </div>
+    <div class=" wrapper ">
+        <header>
+            <nav class="navbar navbar-expand-lg" id="nav">
+                <a class="navbar-brand" href="index.html">
+        InnoVi
+      </a>
+                <button aria-controls="navcontent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navcontent" data-toggle="collapse" type="button">
+        <i class="fas fa-bars">
+        </i>
+      </button>
+                <div class="collapse navbar-collapse" id="navcontent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">
+              HOME
+              <span class="sr-only">
+                (current)
+              </span>
+            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">
+              ABOUT US
+            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button">
+              OUR WORK
+            </a>
+                            <div aria-labelledby="navbarDropdown" class="dropdown-menu">
+                                <a class="dropdown-item" href="product.html">
+                PRODUCTS
+              </a>
+                                <a class="dropdown-item" href="service.html">
+                SERVICES
+              </a>
+                                <a class="dropdown-item" href="solution.html">
+                SOLUTIONS
+              </a>
+                                <div class="dropdown-divider">
+                                </div>
+                                <a class="dropdown-item" href="ai.html">
+                AI
+              </a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">
+              NEWS & EVENTS
+            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="partners.html">
+              PARTNERS
+            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="careers.html">
+              CAREER
+            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+              CONTACT US
+            </a>
+                        </li>
+                    </ul>
+                    <div class="form-inline my-2 my-lg-0">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <div id="CounterVisitor" style="color: white"></div>
+                            </li>
+                            <li class="nav-item"><a href="#" onclick="myFunction();"><i class="fas fa-share-alt"></i></a></li>
+                            <li class="nav-item"><a href="https://www.facebook.com/inoviai/"><i class="fab fa-facebook"></i></a></li>
+                            <li class="nav-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li class="nav-item"><a href="#"><i class="fab fa-medium"></i></a></li>
+                            <li class="nav-item"><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="main-content">
+                <h1 class="banner">
+                    Contact Us
+                </h1>
+                <div class="row mr-70">
+                    <div class="col-md-6">
+                        <div class="center">
+                            <div class="row">
+                                <h1 class="margin20"><span class="lnr lnr-home"></span></h1>
+                                <div class="col">
+                                    <h5>Lam Chi Lok Office</h5>
+                                    <p>West Wing, 2/F, 822 Lam Chi Kok Road,<br /> Lai Chi Kok, N.T., HK</p>
+                                </div>
+                                <div class="col">
+                                    <h5>Jordan Office</h5>
+                                    <p>Unit 2216, 22/F, Cheuk Nang Centre,<br />9-11 Hillwood Road,Tsim Sha Tsui, Kowloon</p>
+                                </div>
+                            </div>
+                            <div class="row margin20">
+                                <div class="col">
+                                    <h1 class="margin20"><span class="lnr lnr-phone-handset"></span></h1>
+                                </div>
+                                <div class="col">
+                                    (852) 9209 8044<br /> Mon to Fri 9am to 6 pm
+                                </div>
+                                <div class="col">
+                                </div>
+                            </div>
+                            <div class="row margin20">
+                                <div class="col">
+                                    <h1 class="margin20"><span class="lnr lnr-envelope"></span></h1>
+                                </div>
+                                <div class="col">
+                                    info@innovi.ai<br /> eddiechow@innovi.ai
+                                    <br /> Send us your query anytime!
+                                </div>
+                                <div class="col">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form" align="center">
+                            <form action="mail2.php" method="post" onsubmit="return false">
+                                <input id="name" name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text"><br />
+                                <input id="toid" name="toid" placeholder="Enter your email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required=""
+                                    type="email"><br />
+                                <input id="subject" name="subject" placeholder="Enter your subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your subject'" class="common-input mb-20 form-control" required="" type="text"><br />
+                                <textarea class="common-textarea form-control" id="message" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required="" rows="4"></textarea>
+                                <br />
+                                <div class="alignRight">
+                                    <input class="btn btn-outline-light" type="submit" value="Send Message" name="send" onClick="success();" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexcon">
+                    <div class="center2">
+                        <h2>Newsletter</h2>
+                        <p>You can trust us. we only send promo offers, not a single spam.</p>
+                        <form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
+                            <div class="col-md-6">
+                                <input name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-outline-light">Subscribe<span class="lnr lnr-arrow-right"></span></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <footer>
+                    Copyright ©2020 InnoVi Limited All rights reserved
+                </footer>
+            </div>
+        </div>
+        <div class="proximity">
+            <canvas id="proximity" width="2000" height="2000"></canvas>
+        </div>
+        <div class="galaxy"></div>
+    </div>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/transition.js"></script>
+    <script>
+        function myFunction() {
+            var data = [new ClipboardItem({
+                "text/plain": new Blob(["https://www.facebook.com/HKFLU/videos/2680790915489621/?epa=SEARCH_BOX"], {
+                    type: "text/plain"
+                })
+            })];
+            navigator.clipboard.write(data).then(function() {
+                console.log("Copied to clipboard successfully!");
+                alert("Copied to clipboard successfully!");
+            }, function() {
+                console.error("Unable to write to clipboard. :-(");
+            });
+        }
+    </script>
+    <script>
+        var n = localStorage.getItem('on_load_counter');
+        if (n === null) {
+            n = 0;
+        }
+        localStorage.setItem("on_load_counter", n);
+        nums = n.toString().split('').map(Number);
+        document.getElementById('CounterVisitor').innerHTML = 'visitor count:';
+        for (var i of nums) {
+            document.getElementById('CounterVisitor').innerHTML += '<span class="counter-item">' + i + '</span>';
+        }
+        document.getElementById('CounterVisitor').innerHTML += '&nbsp;';
+    </script>
+</body>
+
+</html>

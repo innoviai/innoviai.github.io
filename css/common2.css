@@ -1,0 +1,190 @@
+.center {
+    text-align: center;
+}
+
+hr.new1 {
+    border-top: 1px solid white;
+}
+
+.font {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.field {
+    border: 1px white solid;
+    border-radius: 20px;
+    padding-bottom: 100;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #00000080;
+    /*height: 250px;*/
+}
+
+.banner2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.flexcon {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 30vh;
+}
+
+.center2 {
+    width: 60%;
+    text-align: center;
+}
+
+table {
+    color: white;
+}
+
+img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+img:hover {
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+
+form input[type="email"] {
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+form button {
+    border-radius: 10px;
+    width: 50%;
+    background-color: crimson;
+    color: white;
+}
+
+form button:hover {
+    background-color: white;
+    color: mediumpurple;
+    transition-duration: 300ms;
+}
+
+.top {
+    height: 90vh;
+}
+
+.w60 {
+    width: 60%;
+}
+
+.contentRight {
+    justify-content: flex-end;
+}
+
+.margin20 {
+    margin: 20px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*For personal photo*/
+
+.thumb {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 28%;
+    padding-right: 28%;
+    border-bottom: 1px solid #eee;
+}
+
+
+/*Start of price list*/
+
+.single-price {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px 20px;
+}
+
+.package-no {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    height: 140px;
+    background-color: rgba(138, 144, 255, 0.05);
+    border-radius: 100px;
+    align-items: center;
+    display: grid;
+    border: 30px solid #f4eeff;
+}
+
+.mx-auto {
+    margin-left: auto !important;
+}
+
+.package-list {
+    padding: 30px 0;
+}
+
+.bottom-part {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.primary-btn {
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    position: relative;
+}
+
+
+/*End of price list*/
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
